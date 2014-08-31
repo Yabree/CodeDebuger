@@ -1,0 +1,1 @@
+<h1>CodeDebuging tool</h1> <br>Build as easy to be extended ( depends on events ). For automaticly rewritting the page data source urls & auto prepering data for debuging. Data is copied from the real url and emulated on the localhost. ( IIS needs to be set up do handle this project )

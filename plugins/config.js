@@ -1,0 +1,5 @@
+{
+	plugins : [
+		'AR_downloader'
+	]
+}

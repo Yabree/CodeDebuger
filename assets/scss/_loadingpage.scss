@@ -1,0 +1,40 @@
+#loadingPage{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	min-height: 400px;
+	position: relative;
+	display: none;
+	
+	& span.loader{
+		width: 120px;
+		height: 120px;
+		display: block;
+		background: url('../img/loading.gif');
+		background-repeat: no-repeat;
+		background-size: 120px 120px;
+		margin: 0px auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -60px;
+		margin-left: -60px;
+		z-index: 9;
+	}
+
+	& span.logo{
+		width: 30px;
+		height: 30px;
+		display: block;
+		background: url('../img/bt.png');
+		background-repeat: no-repeat;
+		background-size: 30px 30px;	
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -15px;
+		margin-left: -15px;
+		z-index: 10;
+	}
+
+}   

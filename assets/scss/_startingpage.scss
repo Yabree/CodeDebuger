@@ -1,0 +1,35 @@
+#startingPage{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	min-height: 400px;
+	position: relative;
+
+	& span.button{
+		width: 220px;
+		height: 52px;
+		display: block;
+		background: white;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -110px;
+		margin-top: -26px;
+
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        animation: float 5s infinite;    
+        border: 1px solid #38678f;
+
+        color: #666 !important;
+        font-size: 20px;
+        line-height: 55px;
+        text-align: center;
+        cursor: pointer;
+        &:hover{
+        	background: #FDCE0E;
+        }
+	}
+}
+
+

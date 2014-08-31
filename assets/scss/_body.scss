@@ -1,0 +1,52 @@
+      * {
+        box-sizing: border-box;
+      }
+
+
+      body {
+        min-width: 750px;
+        overflow-x: hidden;
+        background: steelblue;
+        font-family: "Open Sans", arial;
+      }
+
+      .fileIcon{
+        width: 25px;
+      }
+
+
+      #copyHTMLforms{
+        display: none;
+      }
+
+      footer{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        display: block;
+        width: 100%;
+        text-align: right;
+        font-size: 10px;
+        color: white;
+        padding-right: 5px;
+      }
+
+      span.button{
+        width: 220px;
+        height: 52px;
+        display: block;
+        background: white;
+
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          animation: float 5s infinite;    
+          border: 1px solid #38678f;
+
+          color: #666 !important;
+          font-size: 20px;
+          line-height: 55px;
+          text-align: center;
+          cursor: pointer;
+          &:hover{
+            background: #FDCE0E;
+          }
+      }

@@ -1,0 +1,131 @@
+html.options{
+	width: 100%; 
+	height: 100%;
+	background: steelblue;
+	margin: 0; padding: 0;
+
+	& body{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 5;
+		margin: 0; padding: 0;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+	span.button_reversed{
+		min-width: 50px;
+		width: auto;
+		height: 40px;
+		background: steelblue;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+        animation: float 5s infinite;    
+        border: 1px solid #38678f;
+        color: white;
+        padding: 8px 25px;
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+        white-space: nowrap;
+        &:hover{
+        	background: #FDCE0E;
+        	color: #494949;
+        	border-color: #CA9B00;
+        }
+	}
+
+	& div#PAGE_OPTIONS{
+		width: 100%;
+		max-width: 1024px;
+		height: auto;
+		overflow: hidden;
+		margin: 0px auto;
+		box-sizing: border-box;
+		padding: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        animation: float 5s infinite;    
+        border: 1px solid #38678f;
+        background: whitesmoke;
+
+        & .panel{
+			width: 98%;
+			height: auto;
+			overflow: hidden;
+			margin: 0px auto;
+			padding: 10px;
+			background: white;
+			border: 1px solid #e0e0e0;
+			padding: 20px;
+			margin-bottom: 20px;
+
+			& h1{
+				font-size: 22px;
+				color: #666;
+				font-weight: 100;
+				padding: 0;
+				margin: 10px 0px 20px 0px; 
+			}
+
+			& select{
+				padding: 10px; 
+
+				& options{
+					padding: 10px; 
+				}
+			}
+
+
+			& div.selectContainer{
+				width: auto;
+				height: auto;
+				overflow: hidden;
+				float: left;	
+				padding-top: 8px;
+			}
+
+			div.btnContainer{
+				width: auto;
+				height: auto;
+				overflow: hidden;
+				float: left;
+				& span.button_reversed{
+					float: left;
+				}
+			}
+
+			label{
+				margin: 10px 0px;
+				display: block;
+				& span{
+					height: 35px;
+					line-height: 35px;
+					display: block;
+					width: 20%;
+					float: left;
+				}
+				& input{
+					width: 80%;
+				}
+			}
+
+			input{
+				height: 35px;
+				backgroun: white;
+				border: 1px solid #e0e0e0;
+				padding: 5px 10px;
+			}
+        }
+
+		& .profiles_panel{
+
+
+
+		}
+
+	}
+
+}
+
